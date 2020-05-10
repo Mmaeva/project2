@@ -126,7 +126,7 @@ font-weight: bold;
     }
     .icons-illust{
         font-size: 30px;
-        color: #77773c;
+        color: #55552b;
     }
     #short-line{
         margin-left: 0px; 
@@ -159,7 +159,7 @@ font-weight: bold;
         margin-bottom: 100px;
     }
     th{
-        border-bottom: 3px solid #77773c;
+        border-bottom: 2px solid #55552b;
         padding-bottom: 10px;
     }
     td{
@@ -178,4 +178,96 @@ font-weight: bold;
         width: 100%;
         text-align: center;
     }
+    #resp-info1{
+        display: none;
+    }
+    #resp-info2{
+        display: none;
+    }
+    h5 > br{
+        display: none;
+    }
+    h6 > br{
+        display: none;
+    }
+    
+    @media all and (max-width:768px)    /*responsive tablettes*/
+    {
+        #resume{
+            width: 100%;
+        }
+        #resumeLeft{
+            display: none;
+        }
+        #resumeright{                          
+            padding-left: 50px;
+            padding-right: 50px;
+            width: 100%;
+        }
+        h1{
+            margin-top: 5px;
+        }
+        h2{
+            font-size: 15px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        #short-line{
+            width: 30px;
+        }
+        .colorGreen{
+            color: #888844;
+        }  
+        .responsive-photo-t{
+            float: right;
+            margin-top: -70px;
+            margin-right: 10px;
+        }
+        #entete{
+            background-color: #cccc99;
+            margin: 0px -50px 0px;
+            padding: 10px 10px 8px;
+        }
+        #resp-info1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 100px;
+            width: 400px;
+            border: solid 2px #77773c;
+            background-color: #b2b266;
+        }
+        #resp-info2{
+            display: inherit;
+            background-color: #2b3525;
+            font-size: small;
+            color: #cccc99 ;
+            width: 280px;
+            height: 180px;
+            margin-left: 435px;
+            margin-top: -310px;
+            margin-bottom: 30px;
+            padding: 80px 10px 60px;
+        } 
+        #resp-info1 > h4{
+            text-align: center;
+            margin-right: 150px;
+            margin-left: 150px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        #resp-info2 > h4{
+            font-weight: bolder;
+            text-decoration: underline;
+            color: #888844;
+            font-size: 15px;
+        }
+        #contact{
+            margin-bottom: 30px;
+        }
+    
+    }
+    
+    
     
