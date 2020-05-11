@@ -118,12 +118,10 @@ h5{
     font-size: 15px;
 }
 h6{
-    font-weight: lighter;
     font-size: 15px;
     display:block;
     margin-top: -18px;
     margin-bottom: -10px;
-    font-family: 'robotomedium', Arial, Helvetica, sans-serif;
 }
 .icons-illust{
     font-size: 30px;
@@ -224,10 +222,7 @@ h6 > br{
     }
     #short-line{
         width: 30px;
-    }
-    /*.colorGreen{
-        color: #888844;
-    }*/  
+    }  
     #responsive-photo-t{
         display: inherit;
         float: right;
@@ -279,16 +274,13 @@ h6 > br{
     }
 
 }
-@media all and (max-width: 480px){ /*responsive telephones*/   
+@media all and (max-width: 480px){   /*responsive telephones*/   
     #resp-info2{
         display: none;
     }
     body{
-        font-size: 12px;
+        font-size: 13px;
     }    
-    #resume{
-        width: auto;
-    } 
     #resumeLeft{
         display: none;
     }
@@ -309,7 +301,6 @@ h6 > br{
         padding-top: 5px;
     }
     h6,.respcolor{
-        color: black;
         font-style: oblique;
     }
     #resp-info3 > h4{
@@ -327,9 +318,6 @@ h6 > br{
     .date-ville{
         width: 150px;
     }
-    /*.colorGreen{
-        color: #888844;
-    }*/  
     #responsive-photo-p{
         display:flex;
         margin-right: 18px;
@@ -356,13 +344,51 @@ h6 > br{
         color: #cccc99 ;
         text-align: center;
         padding: 5px;
-    }    
+    }  
+    .icons-illust{
+        font-size: 20px;
+    }
+    h5,h6,h4.r-title,td,tr,#resp-info3> h4,p{
+        font-size: 13px;
+    }  
     h5 > br{
         display: initial;
     }
     h6 > br{
         display: initial;
     }
+}
+@media all and (max-width:320px) /*responsive telephone w/ small resol*/
+{ 
+    body{
+        font-size: 11px;
+    }
+    #responsive-photo-p{
+        display: none;
+    }
+    #resumeright{                          
+        background-color: #e5e5cc;
+        padding: auto;
+        width:100%;
+    }
+    #resp-info1{
+        margin-top: 100px;
+        padding: 10px;  
+    }
+    .date-ville{
+        width: 120px;
+    } 
+    h5,h6,h4.r-title,td,tr,#resp-info3> h4,p{
+        font-size: 12px;
+    } 
+    #resp-info3> p{
+        text-align: justify;
+    }
+    #resp-info1 > h4{
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }  
 }
 
 
