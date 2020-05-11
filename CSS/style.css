@@ -85,189 +85,288 @@ font-weight: bold;
     align-items: center;
     margin-bottom: 20px;
 }
-/*Resumeright*/
-#resumeright{                          /****début en-têteRight*/
+         /*Resumeright*/
+#resumeright
+{                                /****début en-têteRight*/
     background-color: #e5e5cc;
     padding-left: 50px;
     padding-right: 50px;
     width:70%;
-    }
-    h1{
-        font-size: 35px;
-        margin-top: 100px;
-        margin-bottom:-14px;
-    }
-    h2{
-        font-size: 20px;
-    }
-    .namefont{    
-        font-weight: lighter;
-    }
-    .namecolor{
-        color: #77773c;
-    }
-    h4.r-title{   
-        color: #262626;
-        font-weight: bold;                          /****Début corps Right*/
-        font-size: large; 
-        margin-top: 50px;   
-        margin-bottom: auto;                   
-    }
-    h5{
-        font-size: 15px;
-    }
-    h6{
-        font-weight: lighter;
-        font-size: 15px;
-        display:block;
-        margin-top: -18px;
-        margin-bottom: -10px;
-        font-family: 'robotomedium', Arial, Helvetica, sans-serif;
-    }
-    .icons-illust{
-        font-size: 30px;
-        color: #55552b;
-    }
-    #short-line{
-        margin-left: 0px; 
-        width: 60px;
-        border: 1px solid #77773c;
-        margin-top: -16px;
-        margin-bottom: -35px;
-    }
-    span.block{
-        display: block;
-    }
-    .date-ville{
-        display: flex;
-        width: 300px;
-    }
-    .dot-icon{
-        margin-top: 15px;
-        margin-right: 10px;
-        font-size: 11px;
-        color: black;
-    }
-    .title-container > i,h4.r-title{
-        display: inline-block;
-    }
-    .title-container{
-        text-align: left;
-    }
-    #entete{
-        margin-top: -30px;
-        margin-bottom: 100px;
-    }
-    th{
-        border-bottom: 2px solid #55552b;
-        padding-bottom: 10px;
-    }
-    td{
-        padding-top: 20px;
-    }
-    .mediumfont{
-        font-weight: bold;
-    }
-    #name{
-        margin-bottom: 5px;
-    }
-    #inline{
-        margin: auto;
-    }
-    #contact{
+}
+h1{
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom:-14px;
+}
+h2{
+    font-size: 20px;
+}
+.namefont{    
+    font-weight: lighter;
+}
+.namecolor{
+    color: #77773c;
+}
+h4.r-title{   
+    color: #262626;
+    font-weight: bold;                          /****Début corps Right*/
+    font-size: large; 
+    margin-top: 50px;   
+    margin-bottom: auto;                   
+}
+h5{
+    font-size: 15px;
+}
+h6{
+    font-weight: lighter;
+    font-size: 15px;
+    display:block;
+    margin-top: -18px;
+    margin-bottom: -10px;
+    font-family: 'robotomedium', Arial, Helvetica, sans-serif;
+}
+.icons-illust{
+    font-size: 30px;
+    color: #55552b;
+}
+#short-line{
+    margin-left: 0px; 
+    width: 60px;
+    border: 1px solid #77773c;
+    margin-top: -16px;
+    margin-bottom: -35px;
+}
+span.block{
+    display: block;
+}
+.date-ville{
+    display: flex;
+    width: 300px;
+}
+.dot-icon{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 11px;
+    color: black;
+}
+.title-container > i,h4.r-title{
+    display: inline-block;
+}
+.title-container{
+    text-align: left;
+}
+#entete{
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+th{
+    border-bottom: 2px solid #55552b;
+    padding-bottom: 10px;
+}
+td{
+    padding-top: 20px;
+}
+.mediumfont{
+    font-weight: bold;
+}
+#name{
+    margin-bottom: 5px;
+}
+#inline{
+    margin: auto;
+}
+#contact{
+    width: 100%;
+    text-align: center;
+}
+#responsive-photo-t{
+    display: none;
+}
+#responsive-photo-p{
+    display: none;
+}
+#resp-info1{
+    display: none;
+}
+#resp-info2{
+    display: none;
+}
+#resp-info3{
+    display: none;
+}
+h5 > br{
+    display: none;
+}
+h6 > br{
+    display: none;
+}
+
+@media all and (max-width:768px)    /*responsive tablettes*/
+{
+    #resume{
         width: 100%;
-        text-align: center;
     }
-    #resp-info1{
+    #resumeLeft{
         display: none;
     }
+    #resumeright{                          
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    h1{
+        margin-top: 5px;
+    }
+    h2{
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    #short-line{
+        width: 30px;
+    }
+    /*.colorGreen{
+        color: #888844;
+    }*/  
+    #responsive-photo-t{
+        display: inherit;
+        float: right;
+        margin-top: -70px;
+        margin-right: 10px;
+    }
+    #entete{
+        background-color: #cccc99;
+        margin: 0px -50px 0px;
+        padding: 10px 10px 8px;
+    }
+    #resp-info1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 100px;
+        width: 400px;
+        border: solid 2px #77773c;
+        background-color: #b2b266;
+    }
+    #resp-info2{
+        display: inherit;
+        background-color: #2b3525;
+        font-size: small;
+        color: #cccc99 ;
+        width: 280px;
+        height: 180px;
+        margin-left: 435px;
+        margin-top: -310px;
+        margin-bottom: 30px;
+        padding: 80px 10px 60px;
+    } 
+    #resp-info1 > h4{
+        text-align: center;
+        margin-right: 150px;
+        margin-left: 150px;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    #resp-info2 > h4{
+        font-weight: bolder;
+        text-decoration: underline;
+        color: #888844;
+        font-size: 15px;
+    }
+    #contact{
+        margin-bottom: 30px;
+    }
+
+}
+@media all and (max-width: 480px){ /*responsive telephones*/   
     #resp-info2{
         display: none;
     }
-    h5 > br{
+    body{
+        font-size: 12px;
+    }    
+    #resume{
+        width: auto;
+    } 
+    #resumeLeft{
         display: none;
+    }
+    #resumeright{                          
+        background-color: #e5e5cc;
+        padding-left: 3px;
+        padding-right: 3px;
+        width:100%;
+    }
+    h1{
+        font-size: 25px;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    h6,.respcolor{
+        color: black;
+        font-style: oblique;
+    }
+    #resp-info3 > h4{
+        font-weight: bolder;
+        text-decoration: underline;
+        color: #888844;
+        font-size: 15px;
+    }
+    #short-line{
+        width: 30px;
+    }
+    #resp-title{
+        padding-left: 5px;
+    }
+    .date-ville{
+        width: 150px;
+    }
+    /*.colorGreen{
+        color: #888844;
+    }*/  
+    #responsive-photo-p{
+        display:flex;
+        margin-right: 18px;
+        justify-content: flex-end;
+        margin-top: -48px;
+    }
+    #entete{
+        background-color: #cccc99;
+        margin: 0px -3px 0px;
+        padding-top: 10px;
+        padding: 10px 3px 8px;
+    }
+    #resp-info1{
+        display: flex;
+        margin-top: 10px;
+        padding: 10px;
+        justify-content: space-between;    
+        width: auto;    
+    }
+    #resp-info3{
+        display: inherit;
+        background-color:  #0d1a00;
+        font-size: small;
+        color: #cccc99 ;
+        text-align: center;
+        padding: 5px;
+    }    
+    h5 > br{
+        display: initial;
     }
     h6 > br{
-        display: none;
+        display: initial;
     }
+}
+
+
     
-    @media all and (max-width:768px)    /*responsive tablettes*/
-    {
-        #resume{
-            width: 100%;
-        }
-        #resumeLeft{
-            display: none;
-        }
-        #resumeright{                          
-            padding-left: 50px;
-            padding-right: 50px;
-            width: 100%;
-        }
-        h1{
-            margin-top: 5px;
-        }
-        h2{
-            font-size: 15px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-        }
-        #short-line{
-            width: 30px;
-        }
-        .colorGreen{
-            color: #888844;
-        }  
-        .responsive-photo-t{
-            float: right;
-            margin-top: -70px;
-            margin-right: 10px;
-        }
-        #entete{
-            background-color: #cccc99;
-            margin: 0px -50px 0px;
-            padding: 10px 10px 8px;
-        }
-        #resp-info1{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-top: 100px;
-            width: 400px;
-            border: solid 2px #77773c;
-            background-color: #b2b266;
-        }
-        #resp-info2{
-            display: inherit;
-            background-color: #2b3525;
-            font-size: small;
-            color: #cccc99 ;
-            width: 280px;
-            height: 180px;
-            margin-left: 435px;
-            margin-top: -310px;
-            margin-bottom: 30px;
-            padding: 80px 10px 60px;
-        } 
-        #resp-info1 > h4{
-            text-align: center;
-            margin-right: 150px;
-            margin-left: 150px;
-            font-weight: bolder;
-            text-decoration: underline;
-        }
-        #resp-info2 > h4{
-            font-weight: bolder;
-            text-decoration: underline;
-            color: #888844;
-            font-size: 15px;
-        }
-        #contact{
-            margin-bottom: 30px;
-        }
-    
-    }
     
     
     
