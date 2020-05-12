@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 
     <head>
@@ -14,17 +15,17 @@
                 <img src="images/photoMin.jpg" alt="photo de profil"/>
                 
                 <h4 class="l-title">CONTACT</h4> 
-                <p class="fontf">Adresse<br/>Villars, 42390 France</p>
-                <p class="fontf">Téléphone<br/>0608984465</p>
-                <p class="fontf">Email<br/><a href="mailto:nakomaeva@gmail.com">nakomaeva@gmail.com</a></p>
-                <p class="fontf">Site Web<br/><a href="https://openclassrooms.com/fr/paths" target="_blank">https://openclassrooms.com</a></p>
-                <p class="fontf">Skype<br/>@nakomaeva_1</p>
+                <p><span class="fontf">Adresse</span><br/>Villars, 42390 France</p>
+                <p><span class="fontf">Téléphone</span><br/>06 08 98 44 65</p>
+                <p><span class="fontf">Email</span><br/><a href="mailto:nakomaeva@gmail.com">nakomaeva@gmail.com</a></p>
+                <p><span class="fontf">Site Web</span><br/><a href="https://openclassrooms.com/fr/paths" target="_blank">https://openclassrooms.com</a></p>
+                <p><span class="fontf">Skype</span><br/>@nakomaeva_1</p>
                 
                 <h4 class="l-title">A PROPOS DE MOI</h4>
                 <p id="text-position">
                     Les projets auxquels j'ai participé étant chez PEI m'ont donné envie de me spécialiser dans le domaine du codage
                     informatique et j'ai porté mon choix sur le develeppement Web. Aujourd'hui j'aimerais pouvoir
-                    developper mon expérience sur le terrain et aussi compléter mon background  afin de me positionner à un niveau
+                    développer mon expérience sur le terrain et aussi compléter mon background  afin de me positionner à un niveau
                     où les challenges sont plus importants.
                 </p>
 
@@ -55,14 +56,23 @@
                     <h2>Développeuse Web freelance</h2>
                     <hr id="short-line">
                     <img src="images/photoMin2.jpg" alt="photo de profil" id="responsive-photo-p"/>
-                    <section id="resp-info1">
-                        <h4>CONTACT</h4>
-                        <p><span class="respcolor">Adresse</span><br/>Villars, 42390 France</p>
-                        <p><span class="respcolor">Téléphone</span><br/>0608984465</p>
-                        <p><span class="respcolor">Email<br/><a href="mailto:nakomaeva@gmail.com">nakomaeva@gmail.com</a></p>
-                        <p><span class="respcolor">Site Web<br/><a href="https://openclassrooms.com/fr/paths">https://openclassrooms.com</a></p>
-                        <p><span class="respcolor">Skype</span><br/>@nakomaeva_1</p>
-                    </section>  
+                    <table id="resp-info1">
+                        <tr>
+                           <th colspan="2" id="th-info1">CONTACT</th>
+                        </tr>
+                        <tr>
+                            <td class="space"><span class="mediumfont">Téléphone</span><br/>06 08 98 44 65</td>
+                            <td><span class="mediumfont">Site Web</span><br/><a href="https://openclassrooms.com/fr/paths">https://openclassrooms.com</a></td>
+                        </tr>
+                        <tr>
+                          <td class="space"><span class="mediumfont">Skype</span><br/>@nakomaeva_1</td>
+                          <td><span class="mediumfont">Email</span><br/><a href="mailto:nakomaeva@gmail.com">nakomaeva@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2"><span class="mediumfont">Adresse</span><br/>Villars, 42390 France</td>
+                        </tr>
+    
+                    </table>  
                     <section id="resp-info2">
                         <img src="images/photoMin2.jpg" alt="photo de profil" id="responsive-photo-t"/>
                         <h4>A PROPOS DE MOI</h4>
@@ -73,13 +83,12 @@
                             où les challenges sont plus importants.
                         </p>
                     </section> 
-                   
                 </header>
                 <table>
                     <tr>
-                        <th colspan="2" class="title-container">
+                        <th colspan="2">
                             <i class="fas fa-graduation-cap icons-illust"></i>
-                            <h4 class="r-title">FORMATION</h4>
+                            <span class="r-title">FORMATION</span>
                         </th>
                     </tr>
                     <tr>   
@@ -117,9 +126,9 @@
                 </table>
                 <table>
                     <tr>
-                        <th colspan="2" class="title-container">
+                        <th colspan="2">
                             <i class="fas fa-briefcase icons-illust"></i>
-                            <h4 class="r-title">EXPERIENCE PROFESSIONELLE</h4>
+                            <span class="r-title">EXPERIENCE PROFESSIONELLE</span>
                         </th>
                     </tr>
                     <tr>   
@@ -144,18 +153,19 @@
                             <p>Immersion en entreprise: Comprendre l'organisation et le fonctionnement de l'entreprise.<br/>Proposer une amélioration digitale sur un processus définit.</p>
                         </td>
                     </tr>  
-                
                 </table>
    
                 <table id="contact">
-                    <th class="title-container">
-                        <i class="fas fa-pencil-alt icons-illust"></i>
-                        <h4 class="r-title">RECOMMANDATIONS</h4>
-                    </th>
+                    <tr>
+                        <th id="th-end">
+                            <i class="fas fa-pencil-alt icons-illust"></i>
+                            <span class="r-title">RECOMMANDATIONS</span>
+                        </th>
+                    </tr>    
                     <tr>
                         <td id="i">
                             <p id="name" class="mediumfont">Christophe GILLES</p>
-                            <p id="inline"><span class="mediumfont">Tuteur/Mentor, Openclassrooms<br/>Téléphone: </span>0640913946<br/>Email: <a href="mailto:contact@cgilles.com">contact@cgilles.com</a></p>
+                            <p id="inline"><span class="mediumfont">Tuteur/Mentor, Openclassrooms<br/>Téléphone: </span>06 40 91 39 46<br/>Email: <a href="mailto:contact@cgilles.com">contact@cgilles.com</a></p>
                         </td>
                     </tr>
                 </table>   
@@ -171,6 +181,20 @@
                     où les challenges sont plus importants.
                 </p>
             </div>   
+            <div id="resp-info4">
+                <div>
+                  <h4 class="l-title">COMPETENCES</h4>
+                  <p><span class="colorPurple">Travail en équipe</span><br/>Acquis lors des fils rouges scolaires et pendant les stages.<br/></p>
+                  <p><span class="colorPurple">Volontaire.Dynamique.Curieuse</span><br/>J'aime apprendre et j'assimile assez rapidement.</p>
+                </div>
+                <hr id="resp-line">
+                <div>
+                    <h4 class="l-title">LOISIRS</h4> 
+                    <div class="circle"><i class="fas fa-book-reader icon-loisir"></i></div>
+                    <div class="circle"><i class="fas fa-film icon-loisir"></i></div>
+                    <div class="circle"><i class="fas fa-mitten icon-loisir"></i></div>
+                </div>
+            </div>
         </footer> 
     </body>
 </html>
